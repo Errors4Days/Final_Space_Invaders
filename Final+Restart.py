@@ -244,6 +244,9 @@ def main():
             if len(enemies[0]) + len(enemies[1]) + len(enemies[2]) == 10:
                 pygame.time.set_timer(frame_event, 50)
                 pygame.time.set_timer(move_event, 50)
+            elif len(enemies[0]) + len(enemies[1]) + len(enemies[2]) == 5:
+                pygame.time.set_timer(frame_event, 20)
+                pygame.time.set_timer(move_event, 20)
 
         # moves bullets, deletes bullet once it reaches floor or ceiling
         for shot in bullets:
