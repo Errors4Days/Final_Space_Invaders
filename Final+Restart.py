@@ -27,7 +27,7 @@ font = pygame.font.SysFont("bahnschrift", 20)
 
 text = font.render(score_text, True, (0, 128, 0))
 text1 = font.render(lives_text, True, (0, 128, 0))
-
+'''todo list complete, these are extras'''
 # TODO:
 #  - Add endgame if alien gets too low
 #  - Add hit points for aliens??
